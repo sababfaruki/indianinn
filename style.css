@@ -1,0 +1,49 @@
+body{
+    height: 1136px;
+    width: 2018px;
+    background-color: black;
+    background-image: url(images/bg-banner1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+div{
+    float: left;
+}
+#menu{
+    height: 1136px;
+    width: 1100px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+p{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+.price{
+    color: yellow;
+}
+.sub-name{
+    font-size: 15px;
+}
+.naan{
+    text-align: center;
+}
+#info{
+    padding: 150px;
+}
+.info{
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    font-size: 80px;
+    color: #feea06;
+}
+.time{
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+.web-link{
+    margin-top: 500px;
+}
