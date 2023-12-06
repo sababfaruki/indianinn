@@ -1,6 +1,4 @@
 body{
-    height: 1136px;
-    width: 2018px;
     background-color: black;
     background-image: url(images/bg-banner1.png);
     background-repeat: no-repeat;
@@ -30,7 +28,7 @@ p{
     text-align: center;
 }
 #info{
-    padding: 150px;
+    padding-left: 100px;
 }
 .info{
     font-family: 'Archivo Black', sans-serif;
@@ -45,5 +43,11 @@ p{
     color: white;
 }
 .web-link{
-    margin-top: 500px;
+    margin-top: 700px;
+}
+@media (max-width: 768px) {
+    body{
+        background-image: url(images/alt-bg.png);
+    background-size: cover;
+  }
 }
